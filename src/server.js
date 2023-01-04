@@ -1,5 +1,4 @@
 import { server as _server } from '@hapi/hapi';
-import cors from 'cors';
 import routes from './routes.js';
 
 const init = async () => {
